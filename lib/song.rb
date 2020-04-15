@@ -12,10 +12,7 @@ class Song
   
   def self.create
     song = self.new
-    song.name = name
-    song.artist_name = artist
-    save
-    self.all.include?(song)
+
   end
 
 end
