@@ -11,5 +11,10 @@ class Song
   end
   
   def self.create
+    song = Song.new
+    #s.name = name
+    #s.artist_name = artist
+    s.save
+  end
 
 end
