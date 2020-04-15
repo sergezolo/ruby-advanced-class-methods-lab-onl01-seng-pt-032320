@@ -6,13 +6,13 @@ class Song
     @@all
   end
 
-  def save
+  def save()
     self.class.all << self
   end
   
   def self.create
     song = self.new
-    save
+    save()
     self.all.include?(self)
   end
 
