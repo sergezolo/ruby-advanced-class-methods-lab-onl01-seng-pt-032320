@@ -11,10 +11,9 @@ class Song
   end
   
   def self.create
-    song = Song.new
-    #s.name = name
-    #s.artist_name = artist
-    song.save
+    song = self.new
+    self.save
+    self.all.include?(self)
   end
 
 end
