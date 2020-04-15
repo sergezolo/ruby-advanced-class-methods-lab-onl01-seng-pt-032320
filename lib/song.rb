@@ -15,7 +15,7 @@ class Song
     song.name = name
     song.artist_name = artist
     save
-    self.all.include?(self)
+    self.all.include?(song)
   end
 
 end
