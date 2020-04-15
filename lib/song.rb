@@ -41,4 +41,8 @@ class Song
     end
   end
   
+  def self.alphabetical
+    @@all.soft
+  end
+  
 end
